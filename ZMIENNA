@@ -1,0 +1,24 @@
+<?php
+
+$x = 5;
+
+while ($x < 15) {
+	echo $x;
+	$x = $x + 1;
+}
+
+if($zmienna % 3 == 0 && $zmienna % 5 ==0)
+
+{
+	echo 'ok';
+}
+elseif($zmienna % 3 == 0)
+{
+	echo 'dobrze';
+}
+elseif($zmienna % 5 == 0)
+{
+	echo 'keks';
+}
+	
+?> 
