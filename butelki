@@ -1,0 +1,11 @@
+<?php
+
+$i = 99;
+while($i >= 0){ 
+	echo $i;
+	echo ' butelek soku jabłkowego na scianie, '.$i. ' butelek soku.'."\r\n";
+	$i = $i - 1;
+	echo 'Weź jedną i podaj dalej, '. $i.' butelek soku na scianie' ."\r\n". "\r\n";
+}
+
+?>
